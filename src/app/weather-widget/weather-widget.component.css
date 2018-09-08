@@ -1,0 +1,18 @@
+:host {
+    background: #313144;
+}
+
+h1 {
+    background: #313144;
+    text-align: center;
+}
+
+.content-wrapper {
+    background: #313144;
+    width: 100%;
+}
+
+.content {
+    width: 60%;
+    margin: auto;
+}

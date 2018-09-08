@@ -3,11 +3,11 @@ import { Component, OnInit } from '@angular/core';
 import { Link } from '../../models/link';
 
 @Component({
-  selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css']
+  selector: 'app-page-footer',
+  templateUrl: './page-footer.component.html',
+  styleUrls: ['./page-footer.component.css']
 })
-export class FooterComponent implements OnInit {
+export class PageFooterComponent implements OnInit {
   public links: Link[] = [
     {
       target: '_blank',
@@ -28,6 +28,7 @@ export class FooterComponent implements OnInit {
       text: 'Angular blog'
     },
   ];
+
   public constructor() { }
 
   ngOnInit() {

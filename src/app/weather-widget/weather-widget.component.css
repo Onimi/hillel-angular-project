@@ -2,17 +2,104 @@
     background: #313144;
 }
 
-h1 {
-    background: #313144;
-    text-align: center;
-}
-
 .content-wrapper {
     background: #313144;
     width: 100%;
+    padding: 1em 0;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
 }
 
 .content {
     width: 60%;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    width: 50%;
+}
+
+.hotel {
+    width: 100%;
+    border-radius: .5em;
+}
+
+.hotel-top-img {
+    width: 100%;
+    border-radius: .5em .5em 0 0;
+}
+
+.hotel-info-nav {
+    background: #fda660;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+.hotel-info-data {
+    background: #fff;
+    border-radius: 0 0 .5em .5em;
+    padding: .5em;
+}
+
+.hotel-info-header {
+    text-align: center;
+    margin-top: 0;
+    padding: .5em;
+    border-bottom: 2px #000 solid;
+}
+
+.hotel-info-list {
+    max-height: 150px;
+    overflow-y: scroll;
+    padding: 1em;
+}
+
+.hotel-info-item {
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.item-image {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.item-image img {
+    border-radius: 50%;
+}
+.active {
+    background: #faefef;
+}
+
+/* -------------- */
+.weather {
+    background: #5fb3f9;
+    color: #fff;
+    border-radius: .5em;
+    text-align: center;
+    padding: 1em;
+}
+
+.weather h3 {
+    border-bottom: 2px #fff solid;
+}
+
+.temperature span {
+    line-height: 18px;
+}
+span.sun:before {
+    width: 1em;
+    height: 1em;
+    background-image: url('/asset/sun.png');
+    background-position: 0% 0%;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
 }
